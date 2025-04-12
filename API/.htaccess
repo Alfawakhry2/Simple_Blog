@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# توجيه "/posts" إلى "get_posts.php"
+RewriteRule ^posts$ get_posts.php [L]
+
+# توجيه "/post/ID" إلى "get_posts.php?id=ID"
+RewriteRule ^post/([0-9]+)$ get_one_post.php?id=$1 [L]
+
+# توجيه "/post/ID" إلى "get_posts.php?id=ID"
+RewriteRule ^addpost$ add_post.php [L]
