@@ -7,3 +7,5 @@ This is a simple blog project using PHP and MySQL.
 ## Login , Register and Logout 
 ## Reset Password if forget (Using OTP Code Send to email ).
 # Api RESTfull in CRUD OPeration (Not Complete) .
+# Localization
+# Pagination
